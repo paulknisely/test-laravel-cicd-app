@@ -7,7 +7,7 @@ platform:
 
 steps:
   - name: backend
-    image: laradock/workspace:latest
+    image: laradock/workspace:latest-7.4
     commands:
       - php -v
       - composer -V
